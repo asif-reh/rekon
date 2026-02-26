@@ -1,0 +1,10 @@
+services:
+  rekon:
+    build: .
+    volumes:
+      - .:/workspace
+      - ~/.rekon:/home/rekon/.rekon
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    stdin_open: true
+    tty: true
