@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "rekon"
-version = "0.1.0"
+version = "0.2.0"
 description = "A production-grade CLI coding agent with persistent memory and intelligent checkpoints"
 readme = "README.md"
 license = "MIT"
